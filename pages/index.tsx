@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import TopNav from '../components/navbar'
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Next Step Discipleship</title>
       </Head>
-
+      <TopNav/>
       <main className={styles.main}>
         <h1 className={styles.title}>
         Next Step Discipleship
